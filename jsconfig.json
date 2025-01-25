@@ -3,5 +3,9 @@
     "paths": {
       "@/*": ["./*"]
     }
-  }
+  },
+  "exclude": [
+    "node_modules",
+    "src-tauri"
+  ]
 }
